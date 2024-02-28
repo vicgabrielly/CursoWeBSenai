@@ -1,0 +1,14 @@
+w3schools.com
+css.js
+<img scr
+alt imagem não carrega 
+div: agrupar elementos
+organização
+cabeçalho tag meta 
+corpo div 
+
+h3
+p (preço)
+img (foto)
+p(escrito)
+a(comprar)
