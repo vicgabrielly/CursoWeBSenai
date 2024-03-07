@@ -8,7 +8,83 @@
 </head>
 <body>
     <div>
-        
+<header>
+    <h1>Formulário</h1>
+</header>
+<main>
+
+    <form>
+        <fieldset>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label> Nome</label>
+            <input type="text" name="nome" placeholder="Digite seu nome" required>
+            <label>Data de nascimento</label>
+            <input type="date" name="Data De Nascimento" required>
+            <label>Telefone</label>
+            <input type="tel" name="Telefone" placeholder="(XX) XXXXX-XXXX">
+            <label>CPF</label>
+            <input type="cpf" name="CPF" placeholder="XXXXXXXXX-XX">
+            <label>Email</label>
+            <input type="email" name="Email" placeholder="Insira seu email">
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <label>Endereço</label>
+            <input type="text" name="Endereço" placeholder="Insira seu endereço">
+            <label>Cidade</label>
+            <input type="text" name="Cidade" placeholder="Insira sua cidade">
+            <!-----Selecionar limitadamente-->
+            <label> Estado</label>
+            <select name="Escolha">
+                <option value="">Selecione</option>
+                <option value="São Paulo"> São Paulo</option>
+                <option value="Minas Gerais">Minas Gerais</option>
+                <option value="Rio de Janeiro"> Rio de Janeiro</option>
+                <option value="Espírito Santo">Espírito Santo</option>
+            </select>
+
+        </fieldset>
+
+        <fieldset>
+            <legend> Melhor Desfile</legend>
+            <label> Qual o melhor desfile em sua opinão?</label>
+            <input type="radio" name="resposta" id="animal-sim" value="sim" 
+            checked required/>
+            <label for="Junho de 2006">Junho de 2006</label>
+            <input type="radio" name="resposta" id="Janeiro 2005" value="nao"/>
+            <label for="animal-nao">Janeiro 2005</label>
+            <input type="radio" name="resposta" id="Junho de 2006">
+            <label for="Junho de 2005">Junho de 2005</label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+        <p>Nos conte qual a melhor perfomance da Gisele em toda sua vida, e no conte o por que.&#128521;</p>
+        <textarea name="sugestões" style="resize: none;" required="yes" rows="7" cols="50"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Termos de Contrato</legend>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa assumenda doloribus similique iste aliquam mollitia consequuntur beatae dolores deleniti. Aut libero rerum quia pariatur quis, hic debitis voluptate sequi dolor! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur explicabo ea, corrupti modi odio quaerat temporibus neque pariatur perferendis ad. Sint tempora repellendus quod possimus magni facilis alias nam.</p>
+
+            <input type="checkbox" id="checkbox-Nãoaceito"name="esportes[]"value="Nãoaceito"/>
+            <labelfor="checkbox-Nãoaceito">Não aceito</label>
+            <input type="checkbox" id="checkbox-aceito"name="esportes[]"value=aceito>
+            <labelfor="checkbox-aceito">Aceito</label>
+        </fieldset>
+        <br>
+        <button type="submit">Enviar formulário</button>
+    </fieldset>
+
+    </form>
+    </main>
+
+    <footer>
+        <a href="desafio01.html" target="_blanck" >Voltar</a>&nbsp;&nbsp;&nbsp;&nbsp
+    </footer>
+    
     </div>
 </body>
 </html>
