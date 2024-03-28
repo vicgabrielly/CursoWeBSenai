@@ -1,0 +1,17 @@
+h1{
+    color: #FA8483;
+}
+h2{
+    color: #FA562F;
+}
+p{
+    color: #FA322F;
+}
+#cor_fundo{
+    background-color: #F9EAE9;
+}
+.font{
+    color: #FA842F;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
