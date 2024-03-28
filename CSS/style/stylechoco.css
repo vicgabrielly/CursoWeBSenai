@@ -3,7 +3,7 @@ body {
     margin: 20px;
     padding: 0;
     background-color: #fffbff;
-    /*Cinza claro*/
+    /*Rosa claro/
 
 }
 
@@ -11,18 +11,18 @@ h1 {
     text-align: center;
     margin-top: 50px;
     color: #333;
-    /* Cinza escuro*/
+    //
 }
 
 h2 {
     text-align: left;
     color: #b04e7f;
-    /* Cinza escuro*/
+   
 }
 
 p {
     color: #555;
-    /*Cinza médio*/
+    /*Cinza claro*/
     text-align: justify;
     margin: 5px;
 }
@@ -43,7 +43,7 @@ li {
     padding: 5px 10px;
     background-color: #fbb8e3;
     color: #fff;
-    /*Cinza*/
+    /*Tons de rosa*/
 
 
 }
