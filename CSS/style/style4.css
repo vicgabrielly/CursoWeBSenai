@@ -1,0 +1,34 @@
+.menu{
+    background-color: palevioletred;
+    height: 100px;
+    width: 100%;
+}
+.esq{
+    background-color: pink;
+    height: 400px;
+    width: 350px;
+    float: left;
+    margin: 20px;
+}
+.meio{
+    background-color: plum;
+    height: 400px;
+    width: 350px;
+    float: left;
+    margin: 20px;
+}
+.dir{
+    background-color: lightcoral;
+    height: 400px;
+    width: 350px;
+    float: left;
+    margin: 20px;
+}
+.roda{
+    background-color: rosybrown;
+    height: 60px;
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
