@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolateria</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Patua+One&display=swap');
+
+    *{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    background-color: #fde8b3;
+}
+a{
+    text-decoration: none;
+    color: #fde8b3;
+}
+.esq {
+    float: left;
+}
+.top1{
+    background-color: #fde8b3;
+    height: 80px;
+    padding: 20px;
+}
+.top11{
+    background-color: #fde8b3;
+    height: 60px;
+    padding: 40px;
+}
+.esq_1 {
+    float: left;
+    width: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3d2a1b;
+}       
+.esq_2 {
+    float: left;
+    width: 700px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3d2a1b;
+}
+.dir_2{
+    float: right;
+    margin-right: 100px;
+    margin-top: -10px;
+}
+.center{
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    float: left;
+    padding: 20px;
+}
+.dir{
+    float: right;
+    width: 250px;
+    margin-top: 15px;   
+}
+
+.dir_redes{
+    float: right;
+    padding-top: 20px;
+    margin-right: 10px;
+}
+
+.top2{
+    background-color: #533a26;
+    height: 30px;
+}
+.top21{
+    background-color: #533a26;
+    height: 40px;
+    width: 100%;
+}
+.top21 ul{
+    padding: 0;
+    max-width: 750px;
+}
+/* menu */
+.top21 ul li{
+    background-color: #533a26;
+    width: 150px;
+    height: 40px;
+    display: inline;       
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    position: relative;           
+}
+.top21 ul li:hover{
+    background-color: #563c2f;
+}   
+.top21 ul ul{
+    display: none;
+}
+/* sub-menu  */
+.top21 ul li:hover > ul{
+    display: block;
+}
+/* sub-sub-menu  */
+.top21 ul ul ul{
+    margin-left: 101px;
+    position: absolute;
+    top: 1px;
+}
+.top21 ul ul li:hover{
+    background-color:#6a4a3a;
+}
+.pesq{
+    border-radius: 5px;
+    padding: 8px;
+    border: solid #533a26 4px;
+    background-color:  #f5f6fa;
+    color: #8795a2;
+    width: 50%;
+}
+.bot{
+    width: 40px;   
+    height: 40px; 
+    border: #533a26 solid 4px;
+    border-radius: 5px;       
+    margin-right: 50px;
+}
+.prod{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 600px;
+    background-color: #533a26;
+}
+.prod img{
+    border-radius: 5px;
+    float: left;
+    margin: 30px;
+    width: 340px;
+    border: solid rgb(0, 0, 0) 1px;
+}
+.banner{
+    margin-bottom:-5px;
+}
+.banner img{
+    width: 100%;
+}
+.marg{
+    margin: 20px;
+}
+h2{
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+</style>
+
+
+
+<body>
+    <header>
+        <div class="top2">        </div>
+        <div class="top1">
+                <span class="esq">
+                    <img src="" height="75px"> 
+                </span>
+                <span class="center">
+                    CHOCOLATERIA CHOCOLATES
+                </span>
+                <span class="dir_redes">
+                    <a href="https://www.instagram.com" target="_blank"><img src="img/instagram-Photoroom.png-Photoroom.png" height="30px"></a>  
+                </span>
+                <span class="dir_redes">
+                    <a href="https://pt-br.facebook.com/" target="_blank"><img src="img/facebook-Photoroom.png-Photoroom.png" height="30px"></a>  
+                </span>  
+                <span class="dir_redes">
+                    <a href="https://web.whatsapp.com/" target="_blank"><img src="img/whatsapp-Photoroom.png-Photoroom.png" height="34px"></a> 
+                </span> 
+                <span class="dir">
+                    <form>
+                        <input class="pesq" type="text" placeholder="Pesquisar..." >
+                        <button class="bot" >OK</button>
+                    </form>
+                </span>        
+        </div>
+        <div class="clear"></div>
+        <div class="top21">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">DOCES   &nabla;</a>
+                        <ul>
+                            <li><a href="#">BOMBOM</a></li>
+                            <li><a href="#">CAIXAS</a></li>
+                            <li><a href="#">WAFER</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">OVOS   &nabla;</a>
+                        <ul>
+                            <li><a href="#">250g</a></li>
+                            <li><a href="#">350g</a></li>
+                            <li><a href="#">500g</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">CACHO DE UVA &nabla;</a>
+                        <ul>
+                            <li><a href="#">500g</a></li>
+                            <li><a href="#">750g</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">SOBRE</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <div class="banner">
+            <figure>
+                <img src="img/BANNER (2).jpeg" alt="ovo">
+             </figure>
+        </div>
+        <div class="prod">
+            <figure>
+                <img src="img/OVO2.jpeg" alt="ovo">
+            </figure>
+            <figure>
+                <img src="img/OVO3.jpeg" alt="ovo" >
+            </figure>
+            <figure>    
+                <img src="img/ovo4.jpeg" alt="ovo">
+            </figure>
+            <div class="clear"></div>
+            <figure>
+                <img src="img/OVO2.jpeg" alt="ovo">
+            </figure>
+            <figure>
+                <img src="img/OVO3.jpeg" alt="ovo">
+            </figure>
+            <figure>    
+                <img src="img/ovo4.jpeg" alt="ovo">
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <div class="top11"> 
+            <div class="esq_1">
+                <dl>
+                    <dt><h3>Entre em Contato</h3></dt>
+                        <dd><img src="img/telefone-Photoroom.png-Photoroom.png" width="12px"> 14-99999.1111</dd>
+                        <dd><img src="img/email.jpeg" width="12px"> contato@abc.com</dd>
+                </dl>
+            </div>
+            <div class="esq_2">
+                <h2>
+                    Rua Ângelo da Silva, nº 765 - Bairro do Capoal <br> Santa Cruz do Rio Pardo - SP
+                </h2>
+            </div>
+            <div class="dir_2">
+                <img src="Imagens/logo_qualidade.svg" height="80px">
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>

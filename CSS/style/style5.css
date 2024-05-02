@@ -20,9 +20,7 @@ p{
 a{
     text-decoration: none;
 }
-a:hover{
-    color: #ff219f;
-}
+
 
 .menutop{
     width: 100%;
@@ -49,18 +47,61 @@ a:hover{
 
 .menudown{
     background: #db5ecb;
-    height: 50px;
+    height: 40px;
     text-align: center;
 }
 
-.menu{
+.menu ul li{
+    background-color: #db5ecb;
+    width: 150px;
+    height: 40px;
+    float: left;
+    display: inline;
+    text-align: center;
+    line-height: 40px;
     position: relative;
-    top: 15px;
-    border-right: solid 2px #80006e;
-    padding: 10px;
 
 }
-
-.clear{
-    clear: both;
+.menu ul li:hover{
+    background-color: #f00291;
+    
 }
+
+.menu ul{
+    padding: 0;
+    max-width: 800px;
+}
+
+.menu ul ul{
+    display: none;
+}
+
+.menu ul li:hover > ul{
+    display: block;
+}
+
+.menu ul ul:hover{
+    display: block;
+}
+
+.menu ul ul li:hover{
+    display: block;
+}
+
+.menu ul ul li:hover{
+    display: block;
+}
+
+.menu ul ul ul {
+    margin-left: 131px;
+    position: absolute;
+    top: 0px;
+}
+.menu ul ul ul li:hover{
+    background-color: #a11d6c;
+    display: block;
+}
+
+.clear{clear: both;}
+
+

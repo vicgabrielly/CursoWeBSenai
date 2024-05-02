@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    background-color: white;
+}
+
+header{
+    margin-bottom: 5px;
+    border: #ba0082 solid 1px;
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+main{
+    margin-bottom: 5px;
+    border: #fc1479 solid 1px;
+    width: 100%;
+    height: 400px;
+    border-radius: 5px;
+}
+
+footer{
+    margin-bottom: 5px;
+    border: rgb(123, 19, 105) solid 1px;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;}
+
+.m_left{
+    border: #c44766 solid 1px;
+    float: left;
+    width: 200px;
+    height: 400px;
+}
+
+.m_left ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.m_left ul a{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(232, 211, 216);
+    text-decoration: none;
+    display: block;
+    color: aliceblue;
+    text-indent: 10px;
+    line-height: 40px;
+}
+
+.m_left ul a:hover{
+    background-color: #fc1479;
+}
+
+.m_left ul ul{
+display: none;
+}
+
+.m_left ul li:hover > ul{
+    display: block;
+}
+
+.m_left ul ul a{
+background-color: #8f3f52;
+}
+
+.m_left ul ul a:hover{
+    background-color: palevioletred;
+}
+
+.m_meio{
+    float: left;
+    border: pink;
+    height: 400px;
+    width: 700px;
+}
+
+.m_dir{
+    float: right;
+    border: #d19ba8 solid 1px;
+    height: 400px;
+    width: 280px;
+
+}
+
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+        <main>
+            <div class="m_left">
+                <nav> 
+                    <ul>
+                        <li> <a href="#">ROUPAS</a></li>
+                        <li><a href="#">BOLSAS</a>
+                            <ul>
+                                <li><a href="#"> BOLSA DE OMBRO </a></li>
+                                <li><a href="#"> MINI BOLSA </a></li>
+                                <li><a href="#"> LA MEDUSA </a></li>
+                            </ul>
+                        </li> <!--fim da linha bolsas-->
+                        <li><a href="#">PERFUMES </a>
+                            <UL>
+                            <li><a href="#"> EUA DE PARFUM </a></li>
+                            <li><a href="#"> EUA DE TOILETTE </a></li>
+                            <li><a href="#"> DYLAN TURQUOISE </a></li>
+                        </UL>
+                        </li> <!--fim da linha PERFUME-->
+                    
+                        <li> <a href="#">SAPATOS</a></li>
+                        <li> <a href="#">PRESENTES</a></li>
+                        <li> <a href="#">PRESENTES</a></li>
+                        <li> <a href="#">JOIAS</a></li>
+                        <li> <a href="#">ACESSÓRIOS</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="m_meio">
+                <img src="img/ADRIANA3.jpg"  height="400px" width="1020px">
+            </div>
+            <div class="m_dir">
+                <div>
+                    <img src="img/maopracima.webp" height="200px" width="220px">
+                </div>
+                <div>
+                    <img src="img/maopracima.webp" height="200px" width="250px">
+                </div>
+            </div>
+        </main>
+       
+   
+    <footer></footer>
+</body>
+</html>
