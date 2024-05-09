@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgb(253, 168, 205);
+            background-image: url(img/verdea.webp) ;
+        }
+        #principal{
+            width: 40%;
+            height: 300px;
+            background-color: rgb(255, 255, 255);
+            margin: 0 auto;
+            margin-top: 120px;
+            border-radius: 15px;
+            min-width: 400px;
+            max-width: 600px;
+            text-align: center;
+        }
+        #principal img{
+            width: 120px;
+            margin-top: -60px;
+            margin-bottom: 30px;
+        }
+        input{
+            width: 80%;
+            height: 40px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            background-color: rgb(253, 208, 226);
+            padding-left: 40px;
+            border: none;
+        }
+        input.email{
+            background-image: url(img/icone\ p.png);
+            background-repeat: no-repeat;
+            background-position: 10px;
+        }
+        input.senha{
+            background-image: url(img/cadeado.png);
+            background-repeat: no-repeat;
+            background-position: 10px;
+        }
+        input.submit{
+            color: azure;
+            background-color: rgb(255, 127, 165);
+            border: 2px solid rgb(87, 0, 49);
+        }
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <img src="img/user.jpg">
+        <form method="post" action="#">
+            <div>
+                <input class="email" type="text" name="email" id="email" placeholder="Digite seu email" required>
+            </div>
+            <div>
+                <input class="senha" type="password" name="senha" id="senha" placeholder="Digite seu senha" required>
+            </div>
+            <div>
+                <input class="submit" type="submit" value="logar">
+            </div>
+        </form>
+    </div> id
+</body>
+</html>
