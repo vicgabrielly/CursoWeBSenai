@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .fundo {
+            background-color: rgb(247, 205, 62);
+        }
+
+        .corletra {
+            color: rgb(203, 44, 0);
+        }
+
+        .margentop {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+
+<!--cor do fundo-->
+
+<body class="fundo">
+    <div class="conteiner">
+        <div class="row">
+
+            <!--margem e cor da letra-->
+            <div class="margentop" align="center">
+                <h1 class="corletra">CARROSSEL</h1>
+            </div>
+
+            <!--centralização e espaço do carrossel-->
+            <div id="carouselExample" class="carousel slide col-6 offset-3  margentop">
+
+
+                <!--carrossel interno para colocar os itens dentro-->
+                <div class="carousel-inner">
+
+                    <!--itens do carrossel -->
+                    <div class="carousel-item active">
+
+                        <!--definir como bloco e a largura 100%-->
+                        <img src="img/TURMA.jpg" class="d-block w-100" alt="turma do carrossel">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="img/CIRILO.jpg" class="d-block w-100" alt="meninos do carrossel">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/GUSTAVO LIMA.jpg" class="d-block w-100" alt="gustavo lima">
+                    </div>
+                </div>
+
+
+                <!--controle de botão para voltar a imagem anterior-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+
+                    <!--icone-->
+                    <span class="carousel-control-prev-icon"></span>
+
+                    <!--tag para que deficientes visuais entenderem o que o botão faz-->
+                    <span class="visually-hidden">Previous</span>
+
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
