@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .formulario {
+            margin: 50px;
+            border: 50px black[solid];
+            border-radius: 5px;
+            background-color: rgb(199, 201, 238);
+            padding: 20px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="formulario">
+
+        <div class="row">
+            <label for="inputLogin" class="col-sm-2 col-form-label">Login</label>
+            <div class="col-sm-4">
+                <input type="password" class="form-control" id="inputPassword">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <label for="inputEmail" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-4">
+                <input type="password" class="form-control" id="inputPassword">
+            </div>
+        </div>
+
+        <div class="form-check-inline m-2 row">
+            <button onclick="fazContrato(document.getElementById('c_nome').value,
+    
+    document.getElementById('c_LOGIN').value,
+    document.getElementById('c_senha').value" class="btn btn-dark" id="b_enviar" type="submit"
+                disabled="disabled">OK</button>
+        </div>
+    
+
+    </div>
+
+
+</body>
+
+</html>

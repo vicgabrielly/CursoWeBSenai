@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .formulario{
+            margin-top: 30px;
+            border: 50px black[solid] ;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 60px;
+            background-color: rgb(161, 93, 121);
+        }
+    </style>
+    <script>
+        function fazContrato(nome, sobrenome, cidade, estado, cep) {
+            var contato = document.getElementById('cont').value = "O aluno "
+                + nome + " " + sobrenome + " morador da cidade de " + cidade + " do estado"
+             + estado + " com o CEP " + cep + ", aceita os compormissos acetados em  sala de aula."
+            }
+       
+        
+        function habEnvio() {
+            document.getElementById('b_enviar').removeAttribute("disabled")
+        }
+    </script>
+
+   
+
+</head>
+
+<body>
+    
+    <div class="formulario">
+        <h3 style="text-align: center;">CONTRATO ESTUDANTIL</h3>
+        <form class="m-3">
+        <div class="row">
+    <div class="col-4">
+        <input type="text" id="c_nome" class="form-control" placeholder="Nome">
+    </div>
+    <div class="col-8">
+        <input type="text" id="c_sobre" class="form-control" placeholder="Sobrenome">
+
+    </div>
+</div>
+  
+    <br>
+    <div class="row">
+        <div class="col-7">
+            <input type="text" id="c_cidade" class="form-control" placeholder="Cidade">
+        </div>
+        <div class="col">
+            <input type="text" id="c_estado" class="form-control" placeholder="Estado">
+        </div>
+        <div class="col">
+            <input type="text" id="c_cep" class="form-control" placeholder="CEP">
+        </div>
+    </div>
+    </form>
+    <div class="form-check-inline m-3">
+
+        <label onchange="habEnvio()" id="btn_enviar" class="form-check-
+label">Aceito Contrato:
+
+            <input type="radio" class="form-check-input" name="optradio">Sim
+        </label>
+    </div>
+
+    <br>
+
+    <div class="form-check-inline m-3 row">
+        <button onclick="fazContrato(document.getElementById('c_nome').value,
+
+document.getElementById('c_sobre').value,
+document.getElementById('c_cidade').value,
+document.getElementById('c_estado').value,
+document.getElementById('c_cep').value)" class="btn btn-dark" id="b_enviar" type="submit"
+            disabled="disabled">Enviar</button>
+    </div>
+
+    <div class=" m-3">
+
+        <label for="exampleFormControlTextarea1" class="form-
+label">Contrato</label><br>
+
+        <textarea id="cont" class="form-control" id="exampleFormControlTextarea1" rows="3"
+            disabled="disabled"></textarea>
+
+    </div>
+</div>
+</form>
+</body>
+
+</html>
